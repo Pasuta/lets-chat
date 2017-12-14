@@ -78,6 +78,26 @@ var UserSchema = new mongoose.Schema({
         required: true,
         trim: true
     },
+    address: {
+        type: String,
+        required: true,
+        trim: true
+    },
+    floor: {
+        type: Number,
+        required: true,
+        trim: true
+    },
+    apartment: {
+        type: Number,
+        required: true,
+        trim: true
+    },
+    parkingPlace: {
+        type: Number,
+        required: true,
+        trim: true
+    },
     joined: {
         type: Date,
         default: Date.now
@@ -88,7 +108,7 @@ var UserSchema = new mongoose.Schema({
     },
     rooms: [{
 		type: ObjectId,
-		ref: 'Room' 
+		ref: 'Room'
     }],
     openRooms: [{
       		type: String,
@@ -280,6 +300,21 @@ UserSchema.method('toJSON', function() {
         displayName: this.displayName,
         avatar: this.avatar,
         openRooms: this.openRooms,
+        address: this.address,
+        floor: this.floor,
+        apartment: this.apartment,
+        parkingPlace: this.parkingPlace,
+        listenTags: [
+            'all',
+            'channel',
+            'bratva',
+            'pidaras',
+            this.username,
+            'app' + this.apartment,
+            'floor' + this.floor,
+            'parking' + this.parkingPlace,
+            'address' + this.address,
+        ]
     };
 });
 

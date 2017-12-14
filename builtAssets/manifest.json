@@ -1,0 +1,333 @@
+{
+  "assets": {
+    "chat.js": "chat-3271f58c862f6cc7897a79ba70998e4e.js",
+    "client.js": "client-c143bc8a80f3662a94dd139551ce11e2.js",
+    "common.js": "common-bb1d24c9caecb4a07dffbd92a2f5db21.js",
+    "login.js": "login-7837de7d77c06a887aa8ac155b65ffe5.js",
+    "models.js": "models-11146157a7196c4c20604b80f2e39181.js",
+    "transcript.js": "transcript-e41bc8acd648c24c8f837726d6376e48.js",
+    "vendor.js": "vendor-5b9a2bb2f19551857f2c0020dc2e7795.js",
+    "style.css": "style-8dc8edf892836803f025c4197997ae41.css",
+    "vendor.css": "vendor-f5a60d1bd9e76696f088fa97a53737f1.css"
+  },
+  "files": {
+    "chat-a7cfd1a0176e6d3b12cc57ef5f2721bc.js": {
+      "logical_path": "chat.js",
+      "mtime": "2017-12-13T08:55:48.000Z",
+      "size": 79674,
+      "digest": "a7cfd1a0176e6d3b12cc57ef5f2721bc"
+    },
+    "client-c143bc8a80f3662a94dd139551ce11e2.js": {
+      "logical_path": "client.js",
+      "mtime": "2017-12-13T19:00:49.000Z",
+      "size": 16471,
+      "digest": "c143bc8a80f3662a94dd139551ce11e2"
+    },
+    "common-bb1d24c9caecb4a07dffbd92a2f5db21.js": {
+      "logical_path": "common.js",
+      "mtime": "2017-12-13T08:55:48.000Z",
+      "size": 1538,
+      "digest": "bb1d24c9caecb4a07dffbd92a2f5db21"
+    },
+    "login-7837de7d77c06a887aa8ac155b65ffe5.js": {
+      "logical_path": "login.js",
+      "mtime": "2017-12-13T08:55:48.000Z",
+      "size": 13255,
+      "digest": "7837de7d77c06a887aa8ac155b65ffe5"
+    },
+    "models-11146157a7196c4c20604b80f2e39181.js": {
+      "logical_path": "models.js",
+      "mtime": "2017-12-13T08:55:48.000Z",
+      "size": 1161,
+      "digest": "11146157a7196c4c20604b80f2e39181"
+    },
+    "transcript-e41bc8acd648c24c8f837726d6376e48.js": {
+      "logical_path": "transcript.js",
+      "mtime": "2017-12-13T08:55:48.000Z",
+      "size": 60987,
+      "digest": "e41bc8acd648c24c8f837726d6376e48"
+    },
+    "vendor-5b9a2bb2f19551857f2c0020dc2e7795.js": {
+      "logical_path": "vendor.js",
+      "mtime": "2017-12-13T19:25:47.000Z",
+      "size": 1274461,
+      "digest": "5b9a2bb2f19551857f2c0020dc2e7795"
+    },
+    "style-8dc8edf892836803f025c4197997ae41.css": {
+      "logical_path": "style.css",
+      "mtime": "2017-12-13T08:55:48.000Z",
+      "size": 97025,
+      "digest": "8dc8edf892836803f025c4197997ae41"
+    },
+    "vendor-f5a60d1bd9e76696f088fa97a53737f1.css": {
+      "logical_path": "vendor.css",
+      "mtime": "2017-12-13T08:55:48.000Z",
+      "size": 142950,
+      "digest": "f5a60d1bd9e76696f088fa97a53737f1"
+    },
+    "chat-7eb1470a8447b242ec90f28ab60476fe.js": {
+      "logical_path": "chat.js",
+      "mtime": "2017-12-13T18:05:15.000Z",
+      "size": 79883,
+      "digest": "7eb1470a8447b242ec90f28ab60476fe"
+    },
+    "chat-9b37224a338318a8b7144f62de1414c3.js": {
+      "logical_path": "chat.js",
+      "mtime": "2017-12-13T18:10:16.000Z",
+      "size": 79966,
+      "digest": "9b37224a338318a8b7144f62de1414c3"
+    },
+    "chat-3a9e285d982a234f9bf4899926af1a0d.js": {
+      "logical_path": "chat.js",
+      "mtime": "2017-12-13T18:12:17.000Z",
+      "size": 79844,
+      "digest": "3a9e285d982a234f9bf4899926af1a0d"
+    },
+    "chat-33e94c5787cd363de0304f7d3b0d1fff.js": {
+      "logical_path": "chat.js",
+      "mtime": "2017-12-13T18:18:57.000Z",
+      "size": 79887,
+      "digest": "33e94c5787cd363de0304f7d3b0d1fff"
+    },
+    "chat-0b854d94a898ea08a8375b930df24cfc.js": {
+      "logical_path": "chat.js",
+      "mtime": "2017-12-13T18:19:41.000Z",
+      "size": 79939,
+      "digest": "0b854d94a898ea08a8375b930df24cfc"
+    },
+    "chat-c275df18cb3174273ce64ef4e18703cc.js": {
+      "logical_path": "chat.js",
+      "mtime": "2017-12-13T18:20:17.000Z",
+      "size": 79940,
+      "digest": "c275df18cb3174273ce64ef4e18703cc"
+    },
+    "chat-fa182ee61ceb775132a2b0ab3e71b554.js": {
+      "logical_path": "chat.js",
+      "mtime": "2017-12-13T18:22:02.000Z",
+      "size": 79975,
+      "digest": "fa182ee61ceb775132a2b0ab3e71b554"
+    },
+    "chat-33ebe37fc9c6409e06190600fa975a55.js": {
+      "logical_path": "chat.js",
+      "mtime": "2017-12-13T18:47:20.000Z",
+      "size": 79981,
+      "digest": "33ebe37fc9c6409e06190600fa975a55"
+    },
+    "chat-b24509475a5708f29eccd7c6322942a3.js": {
+      "logical_path": "chat.js",
+      "mtime": "2017-12-13T18:27:12.000Z",
+      "size": 79983,
+      "digest": "b24509475a5708f29eccd7c6322942a3"
+    },
+    "chat-b3c0b5cb0daeb0045e6921dd76f7a3fc.js": {
+      "logical_path": "chat.js",
+      "mtime": "2017-12-13T18:27:44.000Z",
+      "size": 79982,
+      "digest": "b3c0b5cb0daeb0045e6921dd76f7a3fc"
+    },
+    "chat-50b999b78099880fa6505c62edf7e9af.js": {
+      "logical_path": "chat.js",
+      "mtime": "2017-12-13T18:30:59.000Z",
+      "size": 80053,
+      "digest": "50b999b78099880fa6505c62edf7e9af"
+    },
+    "chat-4359c5ba4bda792b7f4afe20795e61fc.js": {
+      "logical_path": "chat.js",
+      "mtime": "2017-12-13T18:32:11.000Z",
+      "size": 80019,
+      "digest": "4359c5ba4bda792b7f4afe20795e61fc"
+    },
+    "chat-fca8ab600821b41d2053d9a888d681c1.js": {
+      "logical_path": "chat.js",
+      "mtime": "2017-12-13T18:32:42.000Z",
+      "size": 80095,
+      "digest": "fca8ab600821b41d2053d9a888d681c1"
+    },
+    "chat-67f1b0b0dc53e9ec2068707f2e68c24a.js": {
+      "logical_path": "chat.js",
+      "mtime": "2017-12-13T18:44:16.000Z",
+      "size": 80108,
+      "digest": "67f1b0b0dc53e9ec2068707f2e68c24a"
+    },
+    "chat-26b58e61130bd0fce5ec6cc1366cb1dc.js": {
+      "logical_path": "chat.js",
+      "mtime": "2017-12-13T18:45:26.000Z",
+      "size": 80135,
+      "digest": "26b58e61130bd0fce5ec6cc1366cb1dc"
+    },
+    "chat-88439b8e7508be9cac4cc6cec9f9393a.js": {
+      "logical_path": "chat.js",
+      "mtime": "2017-12-13T18:49:03.000Z",
+      "size": 79996,
+      "digest": "88439b8e7508be9cac4cc6cec9f9393a"
+    },
+    "chat-5f6426e018847db42d2e3cb6143689b1.js": {
+      "logical_path": "chat.js",
+      "mtime": "2017-12-13T18:50:23.000Z",
+      "size": 80105,
+      "digest": "5f6426e018847db42d2e3cb6143689b1"
+    },
+    "chat-cb319da5dbe5a5aa1046ed407ec43f3b.js": {
+      "logical_path": "chat.js",
+      "mtime": "2017-12-13T18:54:40.000Z",
+      "size": 80169,
+      "digest": "cb319da5dbe5a5aa1046ed407ec43f3b"
+    },
+    "chat-930b92ddc38e9455d34921fbf44f35a4.js": {
+      "logical_path": "chat.js",
+      "mtime": "2017-12-13T19:00:49.000Z",
+      "size": 80279,
+      "digest": "930b92ddc38e9455d34921fbf44f35a4"
+    },
+    "chat-f0f076f76ce3c9990b55df8088410795.js": {
+      "logical_path": "chat.js",
+      "mtime": "2017-12-13T18:59:06.000Z",
+      "size": 80376,
+      "digest": "f0f076f76ce3c9990b55df8088410795"
+    },
+    "client-c04c8b95aec344f72aa75f97c1432817.js": {
+      "logical_path": "client.js",
+      "mtime": "2017-12-13T18:59:06.000Z",
+      "size": 16568,
+      "digest": "c04c8b95aec344f72aa75f97c1432817"
+    },
+    "chat-c986d3cb5f58c609aa433903bb73328e.js": {
+      "logical_path": "chat.js",
+      "mtime": "2017-12-13T19:01:20.000Z",
+      "size": 80135,
+      "digest": "c986d3cb5f58c609aa433903bb73328e"
+    },
+    "chat-0ba061ed22aac33e04781ac152597dd4.js": {
+      "logical_path": "chat.js",
+      "mtime": "2017-12-13T19:02:18.000Z",
+      "size": 80327,
+      "digest": "0ba061ed22aac33e04781ac152597dd4"
+    },
+    "chat-1b3f9447a1849a1e9b2483eeee792821.js": {
+      "logical_path": "chat.js",
+      "mtime": "2017-12-13T19:02:37.000Z",
+      "size": 80444,
+      "digest": "1b3f9447a1849a1e9b2483eeee792821"
+    },
+    "chat-037ad5893e4b5f87a28f5c7b58c1c2de.js": {
+      "logical_path": "chat.js",
+      "mtime": "2017-12-13T19:02:45.000Z",
+      "size": 80517,
+      "digest": "037ad5893e4b5f87a28f5c7b58c1c2de"
+    },
+    "chat-e39804d96f62f5b0c35602be4452d030.js": {
+      "logical_path": "chat.js",
+      "mtime": "2017-12-13T19:03:28.000Z",
+      "size": 80629,
+      "digest": "e39804d96f62f5b0c35602be4452d030"
+    },
+    "chat-72d1715ed8759e902f9be516e82e4d45.js": {
+      "logical_path": "chat.js",
+      "mtime": "2017-12-13T19:09:01.000Z",
+      "size": 80481,
+      "digest": "72d1715ed8759e902f9be516e82e4d45"
+    },
+    "chat-e4574d3cb2a65b44d13cc2b4d26b41ee.js": {
+      "logical_path": "chat.js",
+      "mtime": "2017-12-13T19:10:41.000Z",
+      "size": 81051,
+      "digest": "e4574d3cb2a65b44d13cc2b4d26b41ee"
+    },
+    "chat-9c5663ff58850c3b154ade45fc832952.js": {
+      "logical_path": "chat.js",
+      "mtime": "2017-12-13T19:11:48.000Z",
+      "size": 81077,
+      "digest": "9c5663ff58850c3b154ade45fc832952"
+    },
+    "chat-140b63a753814efb5169662ca330d9e7.js": {
+      "logical_path": "chat.js",
+      "mtime": "2017-12-13T19:12:31.000Z",
+      "size": 80913,
+      "digest": "140b63a753814efb5169662ca330d9e7"
+    },
+    "chat-2c4cc02dd1c025da30ca2dc77d4c6ac5.js": {
+      "logical_path": "chat.js",
+      "mtime": "2017-12-13T19:16:50.000Z",
+      "size": 79943,
+      "digest": "2c4cc02dd1c025da30ca2dc77d4c6ac5"
+    },
+    "chat-83289bf14fabb0442368a1f0cbdfd6fa.js": {
+      "logical_path": "chat.js",
+      "mtime": "2017-12-13T19:17:11.000Z",
+      "size": 79953,
+      "digest": "83289bf14fabb0442368a1f0cbdfd6fa"
+    },
+    "chat-f39cf7225148d74e4b4a7ca89b224209.js": {
+      "logical_path": "chat.js",
+      "mtime": "2017-12-13T19:17:28.000Z",
+      "size": 80007,
+      "digest": "f39cf7225148d74e4b4a7ca89b224209"
+    },
+    "chat-8622378dafc81ea01d9bd7cbf84973ec.js": {
+      "logical_path": "chat.js",
+      "mtime": "2017-12-13T19:18:32.000Z",
+      "size": 80010,
+      "digest": "8622378dafc81ea01d9bd7cbf84973ec"
+    },
+    "chat-ad0f8c005efbe8b24d1662fb1889a43b.js": {
+      "logical_path": "chat.js",
+      "mtime": "2017-12-13T19:18:04.000Z",
+      "size": 79999,
+      "digest": "ad0f8c005efbe8b24d1662fb1889a43b"
+    },
+    "chat-039f4543537c2e6d3af12a0688536563.js": {
+      "logical_path": "chat.js",
+      "mtime": "2017-12-13T19:18:45.000Z",
+      "size": 80053,
+      "digest": "039f4543537c2e6d3af12a0688536563"
+    },
+    "chat-0c2714c58dd02a3cfbb98e39e1b3446c.js": {
+      "logical_path": "chat.js",
+      "mtime": "2017-12-13T19:19:09.000Z",
+      "size": 80017,
+      "digest": "0c2714c58dd02a3cfbb98e39e1b3446c"
+    },
+    "chat-261a45b7d3df12d9bcbd15a9b726392f.js": {
+      "logical_path": "chat.js",
+      "mtime": "2017-12-13T19:30:18.000Z",
+      "size": 79967,
+      "digest": "261a45b7d3df12d9bcbd15a9b726392f"
+    },
+    "vendor-bdea4a05c9ff18c6d571fb522659f41c.js": {
+      "logical_path": "vendor.js",
+      "mtime": "2017-12-13T19:25:09.000Z",
+      "size": 1274557,
+      "digest": "bdea4a05c9ff18c6d571fb522659f41c"
+    },
+    "vendor-342e0f967380419054825ff79d529461.js": {
+      "logical_path": "vendor.js",
+      "mtime": "2017-12-13T19:25:30.000Z",
+      "size": 1274587,
+      "digest": "342e0f967380419054825ff79d529461"
+    },
+    "chat-f75c84cb2bb100f9eeedf751954feb59.js": {
+      "logical_path": "chat.js",
+      "mtime": "2017-12-13T19:29:35.000Z",
+      "size": 79970,
+      "digest": "f75c84cb2bb100f9eeedf751954feb59"
+    },
+    "chat-dddc1a17f3abd417e04566b9fa092cbf.js": {
+      "logical_path": "chat.js",
+      "mtime": "2017-12-13T19:31:14.000Z",
+      "size": 80001,
+      "digest": "dddc1a17f3abd417e04566b9fa092cbf"
+    },
+    "chat-87fd39e8a37945ea0f82f314e5ae6f0a.js": {
+      "logical_path": "chat.js",
+      "mtime": "2017-12-13T19:33:53.000Z",
+      "size": 80026,
+      "digest": "87fd39e8a37945ea0f82f314e5ae6f0a"
+    },
+    "chat-3271f58c862f6cc7897a79ba70998e4e.js": {
+      "logical_path": "chat.js",
+      "mtime": "2017-12-13T19:34:10.000Z",
+      "size": 80012,
+      "digest": "3271f58c862f6cc7897a79ba70998e4e"
+    }
+  }
+}

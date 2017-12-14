@@ -92,6 +92,10 @@ module.exports = function() {
                     firstName: form.firstName || form['first-name'],
                     lastName: form.lastName || form['last-name'],
                     openRooms: form.openRooms,
+                    address: form.address,
+                    floor: form.floor,
+                    apartment: form.apartment,
+                    parkingPlace: form.parkingPlace
                 };
 
             core.account.update(req.user._id, data, function (err, user) {
@@ -123,6 +127,10 @@ module.exports = function() {
                 data = {
                     username: form.username,
                     email: form.email,
+                    address: form.address,
+                    floor: form.floor,
+                    apartment: form.apartment,
+                    parkingPlace: form.parkingPlace,
                     currentPassword: form.password ||
                         form['current-password'] || form.currentPassword,
                     newPassword: form['new-password'] || form.newPassword,
@@ -240,7 +248,11 @@ module.exports = function() {
                 password: fields.password,
                 firstName: fields.firstName || fields.firstname || fields['first-name'],
                 lastName: fields.lastName || fields.lastname || fields['last-name'],
-                displayName: fields.displayName || fields.displayname || fields['display-name']
+                displayName: fields.displayName || fields.displayname || fields['display-name'],
+                address: fields.address,
+                floor: fields.floor,
+                apartment: fields.apartment,
+                parkingPlace: fields.parkingPlace
             };
 
             core.account.create('local', data, function(err) {

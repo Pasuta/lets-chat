@@ -76,10 +76,11 @@
                 return;
             }
             this.countMessage(message);
-            this.flashTitle()
+            this.flashTitle();
             this.flashFaviconBadge();
         },
         countMessage: function(message) {
+            // if (store.get('mute')) return;
             ++this.count;
             message.mentioned && ++this.mentions;
         },
@@ -186,6 +187,8 @@
             this.createDesktopNotification(message);
         },
         createDesktopNotification: function(message) {
+
+            if (!message.mentioned) return;
 
             var that = this;
 

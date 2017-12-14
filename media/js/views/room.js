@@ -20,7 +20,8 @@
             'click .submit-edit-room': 'submitEditRoom',
             'click .archive-room': 'archiveRoom',
             'click .lcb-room-poke': 'poke',
-            'click .lcb-upload-trigger': 'upload'
+            'click .lcb-upload-trigger': 'upload',
+            'click .lcb-mute-trigger': 'mute',
         },
         initialize: function(options) {
             this.client = options.client;
@@ -360,7 +361,7 @@
             message.own = this.client.user.id === message.owner.id;
 
             // WHATS MY NAME
-            message.mentioned = new RegExp('\\B@(' + this.client.user.get('username') + '|all)(?!@)\\b', 'i').test(message.text);
+            message.mentioned = new RegExp('\\B@(' + this.client.user.get('listenTags').join('|') + ')(?!@)\\b', 'i').test(message.text);
 
             // Templatin' time
             var $html = $(this.messageTemplate(message).trim());
@@ -440,6 +441,12 @@
         upload: function(e) {
             e.preventDefault();
             this.model.trigger('upload:show', this.model);
+        },
+        mute: function(e) {
+            e.preventDefault();
+            store.set('mute', !store.get('mute'));
+            // console.log('Mute', store.get('mute'));
+
         },
         updateUser: function(user) {
             var $messages = this.$('.lcb-message[data-owner="' + user.id + '"]');
